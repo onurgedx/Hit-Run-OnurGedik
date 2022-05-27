@@ -10,6 +10,10 @@ public class Gun : MonoBehaviour
    public delegate void Ammo(RaycastHit hitInfo);
     public Ammo ammoFire;
 
+
+    public delegate void AfterArriveAmmo();
+    public AfterArriveAmmo afterArrive;
+
     public float AmmoReachDuration = 0.4f;
     
 
