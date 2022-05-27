@@ -577,7 +577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _raw: {fileID: 1959481771}
   _cube: {fileID: 253333044583752595, guid: e5347447c01fb9648984190fd0f631b2, type: 3}
-  _rowCount: 3
+  _rowCount: 5
   _columnCount: 5
   cubesRandomColorScripts: []
   cubeCount: 0
