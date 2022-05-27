@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ammo : MonoBehaviour
 {
     public float ExplodePower = 100;
-    private  Collider collider;
+    public  Collider collider;
 
     private Vector3 firstScale;
 

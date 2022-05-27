@@ -46,9 +46,11 @@ public class PoolManager : MonoBehaviour
     {
         foreach(GameObject ammo in ammoList)
         {
+            if(ammo != null) { 
             if(ammo.activeInHierarchy==false)
             { ammo.SetActive(true);
                 return ammo;           
+            }
             }
         }
 
