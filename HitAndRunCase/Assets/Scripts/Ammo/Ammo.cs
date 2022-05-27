@@ -37,8 +37,14 @@ public class Ammo : MonoBehaviour
 
         rb.gameObject.GetComponent<Collider>().enabled = false;
         
+       
         
 
+    }
+
+    protected virtual void ExplodeOnce()
+    {
+       
     }
 
     
